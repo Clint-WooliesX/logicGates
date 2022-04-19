@@ -5,12 +5,12 @@
 .switch-holder {
   display: flex;
   position: relative;
-  border-radius: 15px;
+  border-radius: 18px;
   padding: 2px;
-  border: 2px solid black;
+  border: 2px ridge black;
   background-color: grey;
   box-shadow: inset 2px 2px 4px black;
-  width: 90px;
+  width: 80px;
   height: 30px;
   transition: 0.25s;
 }
@@ -25,9 +25,11 @@
   position: absolute;
   display: flex;
   color: white;
+  font-family: "Staatliches";
   top: 25%;
   justify-content: space-around;
   align-content: center;
+  transition: 0.175s ease-in;
 }
 .labels--switch-on {
   color: black;
@@ -44,7 +46,7 @@
   top: 0px;
   left: 0px;
   cursor: grab;
-  border-radius: 15px;
+  border-radius: 13px;
   box-shadow: 1px 1px 3px rgb(0, 0, 0);
   border: 2px ridge rgba(0, 0, 0, 0.726);
   background-color: rgb(195, 195, 195);
@@ -54,6 +56,6 @@
   transition: 0.175s;
 }
 .switch-slide--switch-on {
-  left: 45px;
+  left: 34px;
   transition: 0.175s;
 }
