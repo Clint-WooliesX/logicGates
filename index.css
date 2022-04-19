@@ -5,6 +5,7 @@
 .switch-holder {
   display: flex;
   position: relative;
+  cursor: grab;
   border-radius: 18px;
   padding: 2px;
   border: 2px ridge black;
@@ -45,7 +46,6 @@
   position: relative;
   top: 0px;
   left: 0px;
-  cursor: grab;
   border-radius: 13px;
   box-shadow: 1px 1px 3px rgb(0, 0, 0);
   border: 2px ridge rgba(0, 0, 0, 0.726);
